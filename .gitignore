@@ -1,0 +1,43 @@
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor & IDE Artefacts
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.bak
+
+# Environment & Credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.cert
+
+# Logs & Temporary Files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# AI Agent & Scratch Dirs
+.gemini/
+.claude/
+.cursor/
+scratch/
+tmp/
+temp/
+
+# Native Design Drafts & Pre-correction Backups (keep only approved final .figcraft in design/figcraft/)
+*.backup.figcraft
+*.pre_*.figcraft
